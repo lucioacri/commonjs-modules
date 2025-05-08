@@ -7,3 +7,5 @@ const hobbies = (hobbyOne, hobbyTwo, hobbyThree) => {
 };
 
 console.log(hobbies("film", "calcio", "videogames"));
+
+module.exports = hobbies;

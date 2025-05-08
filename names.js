@@ -6,4 +6,4 @@ const names = (firstName, lastName) => {
 };
 console.log(names("Lucio", "Acri"));
 
-module.exports(names);
+module.exports = names;
