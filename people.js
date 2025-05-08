@@ -2,11 +2,12 @@ const names = require("./names.js");
 const hobbies = require("./hobbies.js");
 
 const init = () => {
-  const fullName = names("Lucio", "Acri");
+  const nameEl = names("Lucio", "Acri");
+  const fullName = `${nameEl.firstName} ${nameEl.lastName}`;
   const fullHobbies = hobbies("film", "calcio", "videogames");
   return {
     fullName,
-    fullHobbies,
+    hobbies: fullHobbies,
   };
 };
 console.log(init());
