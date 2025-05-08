@@ -1,8 +1,9 @@
-const names = (a, b) => {
+const names = (firstName, lastName) => {
   return {
-    firstName: a,
-    lastName: b,
+    firstName,
+    lastName,
   };
 };
+console.log(names("Lucio", "Acri"));
 
 module.exports(names);
